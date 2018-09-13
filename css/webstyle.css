@@ -1,10 +1,35 @@
-body {
-  background-color: #000000
+.container-fluid{
+  padding-top: 70px;
+  padding-bottom: 70px;
 
 }
-.navigation {
-  color: #FFFFFF
+.bg-1{
+  padding-top: 70px;
+  background-color: #FFFFFF;
 }
-.container-fluid{
-  background-color: #AABBCC
+.bg-2
+{
+  background-color: #757575;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+.fab{
+  font-size: 100px;
+}
+
+.brand{
+  font-size: default;
+}
+.icon-spring{
+  font-size: 100px;
 }

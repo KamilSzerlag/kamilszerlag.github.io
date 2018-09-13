@@ -8,31 +8,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="css/webstyle.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css\font-mfizz-2.4.1\font-mfizz-2.4.1\font-mfizz.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-  <div class="wrapper">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
-      <div class="jumbotron">
-        <div class="page-header">
-
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+   </button>
+          <div class="brand">
+            KAMIL SZERLĄG
+          </div>
         </div>
-      <h1>Kamil Szerląg</h1>
-      <p>I'm just a simple man</p>
-      <p>and i just need some cash</p>
+        <ul class="nav navbar-nav navbar-right" role="navigation">
+          <ul class="list-inline">
+            <li><a href="#"></a>ABOUT ME</li>
+            <li><a href="#"></a>EDUCATION</li>
+            <li><a href="#"></a>SKILLS</li>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container-fluid bg-1 text-center">
+    <h3>Who Am I?</h3>
+    <img src="src/me.jpg" class="img-rounded" alt="me">
+    <h3>I'm an adventurer</h3>
+  </div>
+
+  <div class="container-fluid bg-2 text-center">
+    <h3>couple words about me</h3>
+    <p>I'm doing everything for cash</p>
+  </div>
+
+  <div class="container-fluid bg-3 text-center">
+    <h3 class="margin">SKILLS</h3><br>
+    <p>I'm doing everything for cash</p>
+    <div class="row">
+      <div class="col-sm-12">
+        JAVA SE 8 <br>
+        <br>
+        <i class="fab fa-java"></i>
       </div>
     </div>
-    <div class="navigation">
-      <ul>
-        <li id="aboutme"><a href="#aboutme"></a>about me</li>
-        <li id="skills"><a href="#skills"></a>skills</li>
-        <li id="education"><a href="#education"></a>education</li>
-      </ul>
-
+      <div class="row">
+      <div class="col-sm-12">
+        SPRING FRAMEWORK <br>
+        <br>
+<i class="icon-spring"></i>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          HTML <br>
+          <br>
+          <i class="fab fa-html5"></i>
+        </div>
+        <div class="col-sm-4">
+          CSS <br>
+          <br>
+          <i class="fab fa-css3-alt"></i>
+        </div>
+      </div>
     </div>
+
+
+
   </div>
 </body>
+
 
 </html>
