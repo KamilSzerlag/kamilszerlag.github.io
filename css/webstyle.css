@@ -9,7 +9,13 @@
 }
 .bg-2
 {
-  background-color: #757575;
+  background-color: #01579B;
+}
+
+.bg-3{
+  font-family: 'Lato',sans-serif;
+  color: #FFFFFF;
+  background-color: #00B0FF;
 }
 .navbar {
     padding-top: 15px;
@@ -25,11 +31,17 @@
 }
 .fab{
   font-size: 100px;
+  color: #bd2c00;
 }
 
 .brand{
+  color: #bd2c00;
   font-size: default;
 }
 .icon-spring{
+  color: #bd2c00;
   font-size: 100px;
+}
+.margin{
+  margin-bottom: 45px;
 }
