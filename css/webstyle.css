@@ -47,8 +47,11 @@
     color: #1abc9c !important;
 }
 
+.linkicon{
+  font-size: 4em !important;
+}
 .fab{
-  font-size: 4em;
+  font-size: 6.66em;
 }
 .fas{
   font-size: 4em !important;
@@ -60,11 +63,11 @@
 }
 
 .icon-spring{
-  font-size: 6.66em;
+  font-size: 6.5em;
 }
 
 .margin{
-  margin-bottom: 3em;
+  margin-bottom: 1.5em;
 }
 
 .h1-my{
@@ -73,6 +76,11 @@
 
 .top-buffer{
     margin-top: 1em;
+}
+
+.rating{
+  font-size: 2em !important;
+  margin-top: 1.5em !important;
 }
 
 .education{
@@ -101,4 +109,13 @@ color: inherit;
   color: #23527c;
   display: inline-block;
   /* font-size: 2em; */
+}
+.myfooter{
+  background-color: #e7e7e7 !important;
+}
+.emailicon{
+  font-size: 12em !important;
+  align-items: center !important;
+  vertical-align: middle !important;
+
 }
