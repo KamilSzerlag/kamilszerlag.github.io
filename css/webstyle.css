@@ -44,7 +44,7 @@
 }
 
 .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #23527c !important;
 }
 
 .linkicon{
@@ -112,6 +112,7 @@ color: inherit;
 }
 .myfooter{
   background-color: #f8f8f8 !important;
+  /* background-color: #e7e7e7 !important; */
 }
 .emailicon{
   font-size: 12em !important;
